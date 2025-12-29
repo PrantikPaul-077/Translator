@@ -6,7 +6,7 @@ function Translator() {
     const [fromText, setFromText] = useState('');
     const [toText, setToText] = useState('');
     const [fromLanguage, setFromLanguage] = useState('en-GB');
-    const [toLanguage, setToLanguage] = useState('bn-IN');
+    const [toLanguage, setToLanguage] = useState('hi-IN');
     const [languages, setLanguages] = useState({});
     const [loading, setLoading] = useState(false);
 
